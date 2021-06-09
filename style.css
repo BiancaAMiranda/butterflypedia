@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(241, 243, 244);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: pink;
+}
+h1{
+    font-family: "Dancing Script";
+    font-size: 64px;
+}
+h5{
+    font-family: "Dancing Script";
+    font-size: 15px;
+    margin-top: -15px;
+    margin-left: 215px;
+}
+header img{
+    width: 100px;
+}
+.menu{
+    list-style: none;
+    float: left;
+}
+.menu ul{
+    list-style: none;
+}
+.menu li{
+    margin: 3px;
+    position: relative;
+    float: left;
+    border: 1px solid crimson;
+}
+.menu li a{
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+.menu li a:hover{
+    background-color: lightpink;
+}
+.menu li ul {
+    position: absolute;
+    top: 29px;
+    left: -3px;
+    background-color: pink;
+    display: none;
+}
+.menu li:hover ul{
+    display: block;
+}
+.menu li ul li {
+    border: 1px solid crimson;
+    display: block;
+    width: 150px;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+.text{
+    margin-top: 20px;
+    width: 90%;
+}
+span{
+    color: crimson;
+}
+.images{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.one img{
+    margin: 10px;
+    height: 200px;
+}
+.butterfly{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    width: 90%;
+}
+.image img{
+    margin-left: 10vw;
+    width: 400px;
+}
+.description{
+    margin-left: 10%;
+}
+.vida{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text h2{
+    text-align: center;
+}
+.fase{
+    border: 1px solid lightpink;
+    margin: 10px;
+    padding: 10px;
+}
+.fase h3{
+    color:crimson;
+}
